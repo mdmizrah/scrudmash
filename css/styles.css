@@ -2990,7 +2990,7 @@ img.u-pull-left {
     transform  : translate(0, -50%);
     position   : absolute;
     top        : calc(50% - .2rem);
-    right      : 2rem;
+    right      : 10rem;
 }
 
 .s-header__social li {
@@ -3112,7 +3112,7 @@ img.u-pull-left {
     }
 
     .s-header__logo {
-        left : 2.8rem;
+        left : 10rem;
     }
 
     .s-header__nav-wrap {
@@ -4435,5 +4435,7 @@ img.u-pull-left {
         width  : var(--vspace-1_25);
     }
 }
+
+
 
 
