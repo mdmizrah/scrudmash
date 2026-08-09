@@ -2919,7 +2919,7 @@ img.u-pull-left {
     z-index  : 3;
     position : absolute;
     top      : 1.5rem;
-    left     : 2rem;
+    left     : 10rem!important;
 }
 
 .s-header__logo a {
