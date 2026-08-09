@@ -2990,7 +2990,7 @@ img.u-pull-left {
     transform  : translate(0, -50%);
     position   : absolute;
     top        : calc(50% - .2rem);
-    right      : 10rem;
+    right      : 10rem!important;
 }
 
 .s-header__social li {
@@ -3112,7 +3112,7 @@ img.u-pull-left {
     }
 
     .s-header__logo {
-        left : 10rem;
+        left : 10rem!important;
     }
 
     .s-header__nav-wrap {
