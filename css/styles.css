@@ -3211,6 +3211,10 @@ img.u-pull-left {
  *
  *
  * ------------------------------------------------------------------- */
+.about-section{
+ justify-content:center!important;
+}
+
 .s-intro {
     --text-huge             : 7.6rem;
     --text-huge-line-height : 1.158;
@@ -3404,7 +3408,6 @@ img.u-pull-left {
 
     .about-stats {
         max-width : 920px;
-        justify-content:center!important;
     }
 }
 
