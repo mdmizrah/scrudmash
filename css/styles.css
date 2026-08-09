@@ -3404,6 +3404,7 @@ img.u-pull-left {
 
     .about-stats {
         max-width : 920px;
+        justify-content:center!important;
     }
 }
 
