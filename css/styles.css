@@ -1790,7 +1790,7 @@ form,
 img,
 .video-container,
 .ss-custom-select {
-    margin-bottom : var(--vspace-1);
+    margin-bottom : 0px!important;
 }
 
 
@@ -2752,7 +2752,7 @@ img.u-pull-left {
 }
 
 .section-header--dark.has-bottom-sep::before {
-    background-color : rgba(255, 255, 255, 0.05);
+    background-color : white;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3316,6 +3316,8 @@ img.u-pull-left {
  * ## intro about
  * -------------------------------------------------------------------- */
 .s-intro__about {
+    border: 0.5px solid white;
+    border-radius: 3px;
     z-index          : 1;
     flex             : none;
     width            : 75%;
@@ -3327,7 +3329,10 @@ img.u-pull-left {
     color            : var(--color-text-light);
     margin-top       : calc(var(--vspace-3) * -1);
     margin-bottom    : var(--vspace-3_5);
-    padding          : 68px!important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    padding-right:60px!important;
+    padding-left:60px!important;
     position         : relative;
 }
 
@@ -3559,8 +3564,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color : var(--color-1-dark);
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-5);
+    padding-top      : 80px!important;
+    padding-bottom   : 80px!important;
 }
 
 /* --------------------------------------------------------------------
@@ -3697,8 +3702,8 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    padding-top    : var(--vspace-5);
-    padding-bottom : var(--vspace-4);
+    padding-top    : 80px!important;
+    padding-bottom : 0px!important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4206,8 +4211,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color : var(--color-gray-14);
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-3);
+    padding-top      : 80px!important;
+    padding-bottom   : 80px!important;
 }
 
 .s-contact__content {
